@@ -13,6 +13,7 @@ export default function Home() {
         <SlowServerComponent/>
       </Suspense>
       <CounterClientComponent/>
+      <button onClick={() => alert("pika")}>hi hey</button>
     </div>
   )
 }
